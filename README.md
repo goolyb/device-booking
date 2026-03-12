@@ -34,3 +34,31 @@
 - As a user, I want to see usernames, device IDs, and pickup times so that I can navigate the inventory easily.
 - As a user, I want to see the status of MacBooks so that I can know whether they are in use.
 - As a user, I want to log in on the website so that only my team can access it.
+
+
+## Data modeling
+
+ ```mermaid                                                                                                    
+  erDiagram
+      USER {                                                                                                    
+          int userId
+          string username
+      }
+
+      ASSIGNED {
+          int deviceId
+          string deviceName
+          string status
+      }
+
+      BOOKING {
+          int bookingId
+          int userId
+          int deviceId
+          datetime pickupTime
+      }
+
+      USER ||--o{ BOOKING : "makes"
+      ASSIGNED ||--o{ BOOKING : "assigned to"
+  ```
+
