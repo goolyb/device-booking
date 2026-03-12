@@ -20,4 +20,8 @@
 ## Non-Technical Requirements
 
 1. The interface should be simple and intuitive for all users.
-2. 
+2. Editing and deleting entries should require minimal steps for the user.
+3. All information should be clean and easy to read for every user.
+4. The inventory list should be well-organized so that all users can navigate and find information easily.
+5. The website should be accessible through standard web browsers without installing additional software.
+6. The system should provide basic feedback when an action is completed or fails.
