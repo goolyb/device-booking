@@ -25,3 +25,12 @@
 4. The inventory list should be well-organized so that all users can navigate and find information easily.
 5. The website should be accessible through standard web browsers without installing additional software.
 6. The system should provide basic feedback when an action is completed or fails.
+
+## User stories
+- As a user, I want the interface to be intuitive so that it is easy to use.
+- As a user, I want to see a switch theme button so that I can choose a theme I like.
+- As a user, I want to delete MacBooks from the inventory so that I can remove outdated or unnecessary devices.
+- As a user, I want to edit the MacBook inventory easily so that making changes is simple.
+- As a user, I want to see usernames, device IDs, and pickup times so that I can navigate the inventory easily.
+- As a user, I want to see the status of MacBooks so that I can know whether they are in use.
+- As a user, I want to log in on the website so that only my team can access it.
